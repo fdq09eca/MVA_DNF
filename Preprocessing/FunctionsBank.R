@@ -47,4 +47,17 @@ integrateStrctSensPert <- function(sensAff, strcAff, pertAff) {
   return(integration)
 }
 
-
+read_gmt <- function(gmt_path, logger) {
+  #' read_gmt_file and checking
+    log4r::debug(logger, paste("Loading ", gmt_path))
+    gmt <- GSA.read.gmt(gmt_path)
+    is_valid_gmt <- length(gmt$genesets) == length(gmt$geneset.names)
+    if (!is_valid_gmt(gmt)) {
+        error_msg <- "lenght of genesets not equals to lenght of geneset.names"
+        log4r::error(logger, error_msg)
+        stop()
+    }
+    log4r::debug(logger, paste(gmt_path, "loaded successfully."))
+    log4r::info(logger, paste(gmt_path, "has ", length(gmt$genesets), "pathways."))
+    return(gmt)
+}
