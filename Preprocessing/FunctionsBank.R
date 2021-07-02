@@ -82,7 +82,7 @@ drug_sanity_check <- function(pertData, sensData, strcData, logger) {
         "drug_sanity_check failed. REASON: s(pertData) != colnames(sensData))")
       stop(sprintf("error!"))
     }
-    if (!all(names(pertData) %in% names(strcData))) {
+    if (all(names(pertData) != names(strcData))) {
       log4r::error(
         logger,
         "drug_sanity_check failed. REASON: names(pertData) %in% names(strcData))")
