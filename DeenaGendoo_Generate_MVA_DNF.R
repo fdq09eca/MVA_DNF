@@ -3,47 +3,24 @@
 # Generat3 the MVA-DNF matrix, using set of MVA-defined genes (genes identified by Dr. Linda Penn's lab)
 ########################################################################
 ########################################################################
-load_bio_package <- function(pkg) {
-    if (!requireNamespace("BiocManager", quietly = TRUE)) {
-          install.packages("BiocManager")
-      }
-    if (!require(pkg, character.only = TRUE)) {
-          BiocManager::install(pkg)
-      }
-    if (!require(pkg, character.only = TRUE)) {
-          stop(paste("Failed to install package: ", pkg))
-      }
-}
+source("Preprocessing/Dependencies.R")
+source("Preprocessing/FunctionsBank.R")
+source("Preprocessing/Logger.R")
+load("Data/PrePros.RData")
 
-bioconductor_packages <- c("PharmacoGx", "annotate", "org.Hs.eg.db", "survcomp")
-carn_packages <- c(
-    "apcluster", "rcdk", "fingerprint",
-    "SNFtool", "ROCR", "reshape2", "proxy", "pheatmap"
-)
-
-
-for (pkg in bioconductor_packages) load_bio_package(pkg)
-install.packages(setdiff(carn_packages, rownames(installed.packages())))
-
-library(PharmacoGx)
-library(apcluster)
-# library(rcdk)
-library(fingerprint)
-library(annotate)
-library(org.Hs.eg.db)
-library(SNFtool)
-library(ROCR)
-library(survcomp)
-library(reshape2)
-library(proxy)
-
+DNF_logger <- get_logger("DNF.log")
 badchars <- "[\xb5]|[\n]|[,]|[;]|[:]|[-]|[+]|[*]|[%]|[$]|[#]|[{]|[}]|[[]|[]]|[|]|[\\^]|[/]|[\\]|[.]|[_]|[ ]"
 
+gmt_path <- "Data/GMT/c2.cp.kegg.v7.4.symbols.gmt"
+
+gmt <- read_gmt(gmt_path = gmt_path, logger = DNF_logger)
+
+i <- 1
+pathway <- as.character(sort(gmt$genesets[[i]]))
 mva <- read.csv("Data/MVA_genes.csv")
 mvagenes <- as.character(sort(mva$Gene.name))
+num_gene_match_with_pertData <- length(which(rownames(pertData) %in% pathway))
 
-source("FunctionsBank.R")
-load("Data/PrePros.RData")
 pertData <- pertData[(which(rownames(pertData) %in% mva$Gene.name)), ]
 dim(pertData)
 rownames(pertData)
