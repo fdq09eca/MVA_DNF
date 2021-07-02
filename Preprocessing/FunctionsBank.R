@@ -49,15 +49,71 @@ integrateStrctSensPert <- function(sensAff, strcAff, pertAff) {
 
 read_gmt <- function(gmt_path, logger) {
   #' read_gmt_file and checking
-    log4r::debug(logger, paste("Loading ", gmt_path))
-    gmt <- GSA.read.gmt(gmt_path)
-    is_valid_gmt <- length(gmt$genesets) == length(gmt$geneset.names)
-    if (!is_valid_gmt(gmt)) {
-        error_msg <- "lenght of genesets not equals to lenght of geneset.names"
-        log4r::error(logger, error_msg)
-        stop()
+  log4r::debug(logger, paste(
+    "Loading ", gmt_path
+  ))
+  gmt <- GSA.read.gmt(gmt_path)
+  is_valid_gmt <- length(gmt$genesets) == length(gmt$geneset.names)
+  if (!is_valid_gmt) {
+    error_msg <- "lenght of genesets not equals to lenght of geneset.names"
+    log4r::error(logger, error_msg)
+    stop()
+  }
+  log4r::debug(logger, paste(
+    basename(gmt_path), "loaded successfully."
+  ))
+  log4r::info(logger, paste(
+    basename(gmt_path), "has ", length(gmt$genesets), "pathways."
+  ))
+  return(gmt)
+}
+
+drug_sanity_check <- function(pertData, sensData, strcData, logger) {
+  if (!is(pertData, "matrix")) {
+    if (ncol(sensData) != length(pertData)) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON: ncol(sensData) != length(pertData)")
+      stop(sprintf("error!"))
     }
-    log4r::debug(logger, paste(gmt_path, "loaded successfully."))
-    log4r::info(logger, paste(gmt_path, "has ", length(gmt$genesets), "pathways."))
-    return(gmt)
+    if (all(names(pertData) != colnames(sensData))) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON: s(pertData) != colnames(sensData))")
+      stop(sprintf("error!"))
+    }
+    if (!all(names(pertData) %in% names(strcData))) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON: names(pertData) %in% names(strcData))")
+      stop(sprintf("error!"))
+    }
+  } else {
+    if (ncol(sensData) != ncol(pertData)) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON:  (ncol(sensData) != ncol(pertData)")
+      stop(sprintf("error!"))
+    }
+    if (all(colnames(pertData) != colnames(sensData))) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON: colnames(pertData) != colnames(sensData")
+      stop(sprintf("error!"))
+    }
+    if (all(colnames(pertData) != names(strcData))) {
+      log4r::error(
+        logger,
+        "drug_sanity_check failed. REASON: colnames(pertData) != names(strcData))")
+      stop(sprintf("error!"))
+    }
+  }
+  if (ncol(sensData) != length(strcData)) {
+    log4r::error(
+      logger,
+      "drug_sanity_check failed. REASON: ncol(sensData) != length(strcData)"
+    )
+    stop(sprintf("error!"))
+  }
+  log4r::info(logger, "drug_sanity_check passed.")
 }
