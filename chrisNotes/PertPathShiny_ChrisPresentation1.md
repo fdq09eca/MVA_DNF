@@ -1,6 +1,6 @@
 ---
 title: PertPathShiny Project
-marp: true
+# marp: true
 date: 1-Jul-2021
 tags: GendooLab Presentation
 presentationDetail:
@@ -115,7 +115,7 @@ graph TD
     pertData[(pertData)] -- save --> PrePros_RData[(PrePros.RData)]
     strcData[(strcData)] -- save --> PrePros_RData
     sensData[(sensData)] -- save --> PrePros_RData
-    PrePros_RData[(PrePros.RData)] --  load -->  GenDNFScript[[Generate_MVA_DNF.R]]
+    PrePros_RData[(PrePros.RData)] --  load -->  GenDNFScript["Generate_MVA_DNF.R"]
     FunctionBank_R[FunctionBank.R] --  source --> GenDNFScript
     Pathway[(MVA_genes.csv)] -- read --> GenDNFScript
     GenDNFScript -- filter PrePros.RData by Pathway related gene --> Reduce[\"Reduce PrePros.RData to specific Pathway (MVA) drugs and genes"/]
@@ -138,12 +138,11 @@ graph TD
 
 It contains functions that ...
 - constuct the respective network layers
-    - `constPerturbationLayer(pertDat)`
-    - `constSensitivityLayer(sensDat)`
-    - `constStructureLayer(strcDat)`
+  - `constPerturbationLayer(pertDat)`
+  - `constSensitivityLayer(sensDat)`
+  - `constStructureLayer(strcDat)`
 - intgerate the network layers
-    - `integrateStrctSensPert(sensAff, strcAff, pertAff)`
- 
+  - `integrateStrctSensPert(sensAff, strcAff, pertAff)`
 
 ----
 
@@ -176,8 +175,8 @@ It contains functions that ...
 
 - The main things happens at :two:, :six:, and :seven:
 - :two: reads in the specific biochemcal pathway from `MVA_genes.csv`
-    - It will be replaced by `*.GMT` files later for other pathways.
-    - I will obtain `*.GMT` from **MSigDB**.
+  - It will be replaced by `*.GMT` files later for other pathways.
+  - I will obtain `*.GMT` from **MSigDB**.
 - :six: contructs the networks layers
 - :seven: integerates the networks layers that contructed in :six:.
 
@@ -335,3 +334,13 @@ I will...
 ---
 
 ## Thank you for your attention
+
+---
+
+## Dr. Deena's suggestion
+
+```r
+DNFlist <- list
+DNFlist[[1]] <- DNF(pathway1)
+names(DNFlist[[1]]) — name of the pathways
+```
