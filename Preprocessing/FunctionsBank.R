@@ -55,6 +55,7 @@ read_gmt <- function(gmt_path, logger = get_logger("DNF.log")) {
   )
 
   gmt <- GSA.read.gmt(gmt_path)
+
   sanity_check(
     condition = length(gmt$genesets) == length(gmt$geneset.names),
     case = "length(gmt$genesets) != length(gmt$geneset.names)",
@@ -118,8 +119,17 @@ drug_sanity_check <- function(pertData, sensData, strcData,
   logger_complete_msg(logger = logger, curr_func = curr_func)
 }
 
-get_gmt_paths <- function() {
+get_gmt_files <- function() {
   return(list.files(file.path(getwd(), "Data", "GMT"), pattern = "*.gmt$"))
+}
+
+get_gmt_paths <- function() {
+  files <- get_gmt_files()
+  paths <- list()
+  for (i in 1:length(files)) {
+    paths[i] <- file.path(getwd(), "Data", "GMT", files[i])
+  }
+  return(paths)
 }
 
 num_common_genes_sanity_check <- function(num_common_genes, pathway_name,
@@ -187,4 +197,74 @@ dimension_sanity_check <- function(pert_aff_mat, sens_aff_mat, strc_aff_mat,
   )
 
   logger_complete_msg(logger = logger, curr_func = curr_func)
+}
+
+get_dnf <- function(pathway_name, pathway_genes,
+                    pertData, sensData, strcData,
+                    min_num_common_genes = 2, logger = get_logger("DNF.log", log_lv = "DEBUG")) {
+  # pathway_name <- gmt$geneset.names[idx]
+  # pathway_genes <- as.character(sort(gmt$genesets[[idx]]))
+
+  pert_genes <- rownames(pertData)
+  common_genes <- Reduce(intersect, list(pert_genes, pathway_genes))
+  num_common_genes <- length(common_genes)
+
+  log4r::info(logger, paste(
+    "** Matching gene betweem `pertData` and ", "{", pathway_name, "} **\n",
+    "\t - {", num_common_genes, "} genes matched.\n",
+    "\t - Matched genes: {", toString(common_genes), "}"
+  ))
+
+  pass_sanity_check <- num_common_genes_sanity_check(
+    num_common_genes = num_common_genes,
+    pathway_name = pathway_name,
+    min_num_common_genes = min_num_common_genes
+  )
+
+  if (!pass_sanity_check) {
+    return(NULL)
+  }
+
+
+  pertData <- pertData[common_genes, ]
+
+  # Reduce All Matrices to lowest common set of drugs
+  # Get 237 drugs now in the reduced sets
+  pert_drugs <- sort(colnames(pertData))
+  strc_drugs <- names(strcData)
+  senes_drugs <- sort(colnames(sensData))
+  commonDrugs <- Reduce(intersect, list(pert_drugs, strc_drugs, senes_drugs))
+
+  pertData <- pertData[, commonDrugs]
+  strcData <- strcData[commonDrugs]
+  sensData <- sensData[, commonDrugs]
+
+  # Sanity Checks
+  drug_sanity_check(pertData, sensData, strcData)
+
+  ## network layer construction and integration by SNF
+  pertAffMat <- constPerturbationLayer(pertData)
+  sensAffMat <- constSensitivityLayer(sensData)
+  strcAffMat <- constStructureLayer(strcData)
+  integrtStrctSensPert <- integrateStrctSensPert(
+    sensAffMat, strcAffMat, pertAffMat
+  )
+
+  # Sanity Check - should all have the same dimensions: 237 X 237 --> 238...
+  dimension_sanity_check(
+    pert_aff_mat = pertAffMat,
+    sens_aff_mat = sensAffMat,
+    strc_aff_mat = strcAffMat,
+    integrt_strct_sens_pert = integrtStrctSensPert
+  )
+
+  dnf <- list(
+    "pathway" = pathway_name,
+    "common_genes" = common_genes,
+    "strc_layer" = strcAffMat,
+    "sens_layer" = sensAffMat,
+    "pert_layer" = pertAffMat,
+    "integreated_network" = integrtStrctSensPert
+  )
+  return(dnf)
 }
