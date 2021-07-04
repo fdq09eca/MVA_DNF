@@ -218,7 +218,8 @@ get_dnf <- function(pathway_name, pathway_genes,
   pass_sanity_check <- num_common_genes_sanity_check(
     num_common_genes = num_common_genes,
     pathway_name = pathway_name,
-    min_num_common_genes = min_num_common_genes
+    min_num_common_genes = min_num_common_genes,
+    logger = logger
   )
 
   if (!pass_sanity_check) {
@@ -240,7 +241,7 @@ get_dnf <- function(pathway_name, pathway_genes,
   sensData <- sensData[, commonDrugs]
 
   # Sanity Checks
-  drug_sanity_check(pertData, sensData, strcData)
+  drug_sanity_check(pertData, sensData, strcData, logger = logger)
 
   ## network layer construction and integration by SNF
   pertAffMat <- constPerturbationLayer(pertData)
