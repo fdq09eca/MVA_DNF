@@ -5,12 +5,12 @@ if (length(new.packages)) install.packages(new.packages)
 library(log4r)
 library(docstring)
 
-get_logger <- function(file_name = "", threshold = "DEBUG", subDir = "Logging") {
+get_logger <- function(log_file = "", log_lv = "DEBUG", subDir = "Logging") {
     #' A simple logger initiator
     #'
     #' @description A simple logger initiator, using `log4r` package.
     #' the file and directory will be automatically created if not exists.
-    #' @param file_name character. the actual logger file,
+    #' @param log_file character. the log file name,
     #' `*.log` file is recommended.'
     #' @param threshold character. the logger level, default: "DEBUG"
     #' level options (from low to high): ["DEBUG, "INFO", "ERROR"]
@@ -38,7 +38,7 @@ get_logger <- function(file_name = "", threshold = "DEBUG", subDir = "Logging") 
         dir.create(logging_dir)
     }
 
-    logfile_path <- file.path(logging_dir, paste(Sys.Date(), file_name))
+    logfile_path <- file.path(logging_dir, paste(Sys.Date(), log_file))
     if (!file.exists(logfile_path)) {
         file.create(logfile_path)
     }
@@ -53,8 +53,8 @@ get_logger <- function(file_name = "", threshold = "DEBUG", subDir = "Logging") 
     )
 
     return(log4r::logger(
-        threshold = threshold, appenders =
-            list(my_console_appender, my_file_appender)
+        threshold = log_lv,
+        appenders = list(my_console_appender, my_file_appender)
     ))
 }
 
