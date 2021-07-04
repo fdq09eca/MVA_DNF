@@ -12,13 +12,13 @@ bad_chars <- "[\xb5]|[\n]|[,]|[;]|[:]|[-]|[+]|[*]|[%]|[$]|[#]|[{]|[}]|[[]|[]]|[|
 
 LOG_LEVEL <- "INFO"
 MIN_NUM_COMMON_GENES <- 2
+
 DNFs <- list()
 
 gmt_paths <- get_gmt_paths()
-
+num_skipped_pathway <- 0
 for (gmt_path in gmt_paths) {
     gmt_file <- basename(gmt_path)
-    print(gmt_file)
     gmt <- GSA.read.gmt(gmt_path)
     gmt <- read_gmt(
         gmt_path = gmt_path,
@@ -40,6 +40,7 @@ for (gmt_path in gmt_paths) {
             logger = get_logger("DNF_loop.log", log_lv = LOG_LEVEL)
         )
         if (is.null(dnf)) {
+            num_skipped_pathway <- num_skipped_pathway + 1
             log4r::info(
                 logger = get_logger(
                     log_file = "DNF_unconsidered_pathway_min_gene_2_.log",
@@ -52,11 +53,15 @@ for (gmt_path in gmt_paths) {
             )
             next()
         }
-
         DNFs[[length(DNFs) + 1]] <- dnf
     }
 }
 
-print(length(DNFs))
+logger_DNFs_report(
+    gmt_files = get_gmt_files(),
+    DNFs = DNFs,
+    logger = get_logger("DNFs_generation_report.log"),
+    num_skipped_pathway = num_skipped_pathway
+)
 # Save an RData Object with all matrices: MVA-DNF and single layer taxonomies
 # save(integrtStrctSensPert, strcAffMat, sensAffMat, pertAffMat, file = "MVA_DNF.RData")

@@ -93,3 +93,19 @@ logger_complete_msg <- function(curr_func, logger, msg = "") {
         message = paste("*** [", curr_func, "] completed.", msg, "***")
     )
 }
+
+logger_DNFs_report <- function(gmt_files, DNFs, logger, num_skipped_pathway) {
+    log4r::info(
+        logger = logger,
+        message = sprintf("== DNFs Report ==
+        - number of gmt files processed: %s,
+        - gmt files: [%s],
+        - number of dnfs generated: %s,
+        - number of unconsidered pathways: %s",
+        length(gmt_files),
+        toString(gmt_files),
+        length(DNFs),
+        num_skipped_pathway
+        )
+    )
+}
