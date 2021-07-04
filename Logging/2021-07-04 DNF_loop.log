@@ -1,0 +1,558 @@
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_N_GLYCAN_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { RPN1 }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_OTHER_GLYCAN_DEGRADATION } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { MAN2B1 }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_O_GLYCAN_BIOSYNTHESIS } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSAMINOGLYCAN_DEGRADATION } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_KERATAN_SULFATE } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { B4GAT1 }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_GLYCEROLIPID_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ALDH7A1 }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSYLPHOSPHATIDYLINOSITOL_GPI_ANCHOR_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { PIGB }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_GLYCEROPHOSPHOLIPID_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { LPGAT1, LYPLA1, MBOAT7, PLA2G15, PLA2G4A }
+INFO  [2021-07-04 01:54:13] ** Matching gene betweem `pertData` and  { KEGG_ETHER_LIPID_METABOLISM } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { PAFAH1B1, PAFAH1B3, PLA2G4A }
+INFO  [2021-07-04 01:54:14] ** Matching gene betweem `pertData` and  { KEGG_ARACHIDONIC_ACID_METABOLISM } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { CBR1, CBR3, PLA2G4A, PTGS2 }
+INFO  [2021-07-04 01:54:15] ** Matching gene betweem `pertData` and  { KEGG_LINOLEIC_ACID_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { PLA2G4A }
+INFO  [2021-07-04 01:54:15] ** Matching gene betweem `pertData` and  { KEGG_ALPHA_LINOLENIC_ACID_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { PLA2G4A }
+INFO  [2021-07-04 01:54:15] ** Matching gene betweem `pertData` and  { KEGG_SPHINGOLIPID_METABOLISM } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ASAH1, CERK, SPTLC2 }
+INFO  [2021-07-04 01:54:16] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_LACTO_AND_NEOLACTO_SERIES } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { FUT1, B4GAT1 }
+INFO  [2021-07-04 01:54:16] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GLOBO_SERIES } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { FUT1 }
+INFO  [2021-07-04 01:54:16] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIES } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ST3GAL5 }
+INFO  [2021-07-04 01:54:16] ** Matching gene betweem `pertData` and  { KEGG_RIBOFLAVIN_METABOLISM } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:16] ** Matching gene betweem `pertData` and  { KEGG_NICOTINATE_AND_NICOTINAMIDE_METABOLISM } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { NNT, PNP }
+INFO  [2021-07-04 01:54:17] ** Matching gene betweem `pertData` and  { KEGG_PANTOTHENATE_AND_COA_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { COASY }
+INFO  [2021-07-04 01:54:17] ** Matching gene betweem `pertData` and  { KEGG_AMINOACYL_TRNA_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { IARS2 }
+INFO  [2021-07-04 01:54:17] ** Matching gene betweem `pertData` and  { KEGG_BASAL_TRANSCRIPTION_FACTORS } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { GTF2A2, GTF2E2, TBP, TBPL1 }
+INFO  [2021-07-04 01:54:18] ** Matching gene betweem `pertData` and  { KEGG_NON_HOMOLOGOUS_END_JOINING } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:18] ** Matching gene betweem `pertData` and  { KEGG_SNARE_INTERACTIONS_IN_VESICULAR_TRANSPORT } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { SNAP25, STX1A, STX4, YKT6 }
+INFO  [2021-07-04 01:54:18] ** Matching gene betweem `pertData` and  { KEGG_LYSOSOME } **
+ 	 - { 15 } genes matched.
+ 	 - Matched genes: { GAA, IGF2R, ASAH1, ATP6V0B, CLTB, CLTC, CTSD, CTSL, LGMN, LIPA, MAN2B1, MCOLN1, NPC1, PLA2G15, SLC11A2 }
+INFO  [2021-07-04 01:54:19] ** Matching gene betweem `pertData` and  { KEGG_CARDIAC_MUSCLE_CONTRACTION } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { ATP1B1, TPM1 }
+INFO  [2021-07-04 01:54:20] ** Matching gene betweem `pertData` and  { KEGG_RENIN_ANGIOTENSIN_SYSTEM } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:20] ** Matching gene betweem `pertData` and  { KEGG_CIRCADIAN_RHYTHM_MAMMAL } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { BHLHE40, CSNK1E }
+INFO  [2021-07-04 01:54:21] ** Matching gene betweem `pertData` and  { KEGG_TASTE_TRANSDUCTION } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { GNAS, PRKACA, PRKX }
+INFO  [2021-07-04 01:54:21] ** Matching gene betweem `pertData` and  { KEGG_PROXIMAL_TUBULE_BICARBONATE_RECLAMATION } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { ATP1B1, PCK2 }
+INFO  [2021-07-04 01:54:22] ** Matching gene betweem `pertData` and  { KEGG_PATHOGENIC_ESCHERICHIA_COLI_INFECTION } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { ABL1, ARHGEF2, FYN, CDC42, CTTN, NCK1, NCK2, RHOA, TLR4, TUBB6 }
+INFO  [2021-07-04 01:54:23] ** Matching gene betweem `pertData` and  { KEGG_SYSTEMIC_LUPUS_ERYTHEMATOSUS } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { HLA-DMA, HLA-DRA, C5, CD40 }
+INFO  [2021-07-04 01:54:24] ** Matching gene betweem `pertData` and  { KEGG_PRIMARY_IMMUNODEFICIENCY } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { BTK, CD40, PTPRC, RFX5 }
+INFO  [2021-07-04 01:54:24] ** Matching gene betweem `pertData` and  { KEGG_HYPERTROPHIC_CARDIOMYOPATHY_HCM } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { ITGB5, DAG1, PRKAG2, SGCB, TGFB3, TPM1 }
+INFO  [2021-07-04 01:54:25] ** Matching gene betweem `pertData` and  { KEGG_ARRHYTHMOGENIC_RIGHT_VENTRICULAR_CARDIOMYOPATHY_ARVC } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ITGB5, DAG1, DSG2, SGCB }
+INFO  [2021-07-04 01:54:26] ** Matching gene betweem `pertData` and  { KEGG_DILATED_CARDIOMYOPATHY } **
+ 	 - { 8 } genes matched.
+ 	 - Matched genes: { GNAS, ITGB5, DAG1, PRKACA, PRKX, SGCB, TGFB3, TPM1 }
+INFO  [2021-07-04 01:54:27] ** Matching gene betweem `pertData` and  { KEGG_GLYCOLYSIS_GLUCONEOGENESIS } **
+ 	 - { 11 } genes matched.
+ 	 - Matched genes: { ADH5, ALDH7A1, ALDOA, ALDOC, GAPDH, HK1, DLD, PCK2, PFKL, PGAM1, PGM1 }
+INFO  [2021-07-04 01:54:27] ** Matching gene betweem `pertData` and  { KEGG_CITRATE_CYCLE_TCA_CYCLE } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ACLY, DLD, PCK2, SDHB }
+INFO  [2021-07-04 01:54:28] ** Matching gene betweem `pertData` and  { KEGG_PENTOSE_PHOSPHATE_PATHWAY } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { ALDOA, ALDOC, DERA, PFKL, PGM1, RBKS, RPIA }
+INFO  [2021-07-04 01:54:29] ** Matching gene betweem `pertData` and  { KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { UGDH }
+INFO  [2021-07-04 01:54:29] ** Matching gene betweem `pertData` and  { KEGG_FRUCTOSE_AND_MANNOSE_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ALDOA, ALDOC, HK1, PFKL, PMM2 }
+INFO  [2021-07-04 01:54:30] ** Matching gene betweem `pertData` and  { KEGG_GALACTOSE_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { GAA, GALE, HK1, PFKL, PGM1 }
+INFO  [2021-07-04 01:54:30] ** Matching gene betweem `pertData` and  { KEGG_ASCORBATE_AND_ALDARATE_METABOLISM } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { ALDH7A1, UGDH }
+INFO  [2021-07-04 01:54:31] ** Matching gene betweem `pertData` and  { KEGG_FATTY_ACID_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ACAA1, ACAT2, ADH5, ALDH7A1, HADH }
+INFO  [2021-07-04 01:54:32] ** Matching gene betweem `pertData` and  { KEGG_STEROID_BIOSYNTHESIS } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { FDFT1, EBP, LIPA, NSDHL }
+INFO  [2021-07-04 01:54:32] ** Matching gene betweem `pertData` and  { KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { SCP2 }
+INFO  [2021-07-04 01:54:32] ** Matching gene betweem `pertData` and  { KEGG_STEROID_HORMONE_BIOSYNTHESIS } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:32] ** Matching gene betweem `pertData` and  { KEGG_OXIDATIVE_PHOSPHORYLATION } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ATP6V0B, ATP6V1D, SDHB }
+INFO  [2021-07-04 01:54:33] ** Matching gene betweem `pertData` and  { KEGG_PURINE_METABOLISM } **
+ 	 - { 12 } genes matched.
+ 	 - Matched genes: { HPRT1, CANT1, DCK, NUDT9, PAICS, PNP, POLD4, POLE2, POLR1C, POLR2I, POLR2K, PRUNE1 }
+INFO  [2021-07-04 01:54:34] ** Matching gene betweem `pertData` and  { KEGG_PYRIMIDINE_METABOLISM } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { CANT1, DCK, DCTD, PNP, POLD4, POLE2, POLR1C, POLR2I, POLR2K, TXNRD1 }
+INFO  [2021-07-04 01:54:35] ** Matching gene betweem `pertData` and  { KEGG_ALANINE_ASPARTATE_AND_GLUTAMATE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { GFPT1 }
+INFO  [2021-07-04 01:54:35] ** Matching gene betweem `pertData` and  { KEGG_GLYCINE_SERINE_AND_THREONINE_METABOLISM } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ALAS1, DLD, PHGDH }
+INFO  [2021-07-04 01:54:35] ** Matching gene betweem `pertData` and  { KEGG_CYSTEINE_AND_METHIONINE_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ADI1, DNMT1, DNMT3A, ENOPH1, MAT2A }
+INFO  [2021-07-04 01:54:36] ** Matching gene betweem `pertData` and  { KEGG_VALINE_LEUCINE_AND_ISOLEUCINE_DEGRADATION } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { ACAA1, ACAT2, ALDH7A1, HADH, HMGCS1, HSD17B10, DLD, OXCT1, PCCB }
+INFO  [2021-07-04 01:54:37] ** Matching gene betweem `pertData` and  { KEGG_VALINE_LEUCINE_AND_ISOLEUCINE_BIOSYNTHESIS } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { IARS2 }
+INFO  [2021-07-04 01:54:37] ** Matching gene betweem `pertData` and  { KEGG_LYSINE_DEGRADATION } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ACAT2, ALDH7A1, HADH, PLOD3, SUV39H1 }
+INFO  [2021-07-04 01:54:37] ** Matching gene betweem `pertData` and  { KEGG_ARGININE_AND_PROLINE_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ALDH7A1, LAP3, NOS3, P4HA2, PYCR1 }
+INFO  [2021-07-04 01:54:38] ** Matching gene betweem `pertData` and  { KEGG_HISTIDINE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ALDH7A1 }
+INFO  [2021-07-04 01:54:38] ** Matching gene betweem `pertData` and  { KEGG_TYROSINE_METABOLISM } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ADH5, GSTZ1, FAH, MIF }
+INFO  [2021-07-04 01:54:39] ** Matching gene betweem `pertData` and  { KEGG_PHENYLALANINE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { MIF }
+INFO  [2021-07-04 01:54:39] ** Matching gene betweem `pertData` and  { KEGG_TRYPTOPHAN_METABOLISM } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ACAT2, ALDH7A1, HADH, CAT }
+INFO  [2021-07-04 01:54:40] ** Matching gene betweem `pertData` and  { KEGG_BETA_ALANINE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ALDH7A1 }
+INFO  [2021-07-04 01:54:40] ** Matching gene betweem `pertData` and  { KEGG_TAURINE_AND_HYPOTAURINE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ADO }
+INFO  [2021-07-04 01:54:40] ** Matching gene betweem `pertData` and  { KEGG_SELENOAMINO_ACID_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { MAT2A }
+INFO  [2021-07-04 01:54:40] ** Matching gene betweem `pertData` and  { KEGG_GLUTATHIONE_METABOLISM } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { GSTM2, GSTZ1, LAP3 }
+INFO  [2021-07-04 01:54:40] ** Matching gene betweem `pertData` and  { KEGG_STARCH_AND_SUCROSE_METABOLISM } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { AGL, GAA, HK1, PGM1, PYGL, UGDH }
+INFO  [2021-07-04 01:54:41] ** Matching gene betweem `pertData` and  { KEGG_AMINO_SUGAR_AND_NUCLEOTIDE_SUGAR_METABOLISM } **
+ 	 - { 8 } genes matched.
+ 	 - Matched genes: { AMDHD2, GALE, GFPT1, GNPDA1, HK1, PGM1, PMM2, UGDH }
+INFO  [2021-07-04 01:54:42] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_CHONDROITIN_SULFATE } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:42] ** Matching gene betweem `pertData` and  { KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_HEPARAN_SULFATE } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { HS2ST1, EXT1 }
+INFO  [2021-07-04 01:54:42] ** Matching gene betweem `pertData` and  { KEGG_INOSITOL_PHOSPHATE_METABOLISM } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { INPP1, INPP4B, PIK3C2B, PIK3C3, PIK3CA, PIP4K2B, PLCB3 }
+INFO  [2021-07-04 01:54:43] ** Matching gene betweem `pertData` and  { KEGG_PYRUVATE_METABOLISM } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ACAT2, ALDH7A1, DLD, ME2, PCK2 }
+INFO  [2021-07-04 01:54:44] ** Matching gene betweem `pertData` and  { KEGG_GLYOXYLATE_AND_DICARBOXYLATE_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { MTHFD2 }
+INFO  [2021-07-04 01:54:44] ** Matching gene betweem `pertData` and  { KEGG_PROPANOATE_METABOLISM } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ACAT2, ALDH7A1, PCCB }
+INFO  [2021-07-04 01:54:45] ** Matching gene betweem `pertData` and  { KEGG_BUTANOATE_METABOLISM } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { ACAT2, ALDH7A1, HADH, HMGCS1, BDH1, OXCT1 }
+INFO  [2021-07-04 01:54:46] ** Matching gene betweem `pertData` and  { KEGG_ONE_CARBON_POOL_BY_FOLATE } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { MTHFD2 }
+INFO  [2021-07-04 01:54:46] ** Matching gene betweem `pertData` and  { KEGG_FOLATE_BIOSYNTHESIS } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { FPGS, SPR }
+INFO  [2021-07-04 01:54:46] ** Matching gene betweem `pertData` and  { KEGG_RETINOL_METABOLISM } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ADH5 }
+INFO  [2021-07-04 01:54:46] ** Matching gene betweem `pertData` and  { KEGG_PORPHYRIN_AND_CHLOROPHYLL_METABOLISM } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ALAS1, HMOX1, BLVRA, PPOX }
+INFO  [2021-07-04 01:54:47] ** Matching gene betweem `pertData` and  { KEGG_TERPENOID_BACKBONE_BIOSYNTHESIS } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ACAT2, HMGCR, HMGCS1, DHDDS }
+INFO  [2021-07-04 01:54:48] ** Matching gene betweem `pertData` and  { KEGG_LIMONENE_AND_PINENE_DEGRADATION } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { ALDH7A1 }
+INFO  [2021-07-04 01:54:48] ** Matching gene betweem `pertData` and  { KEGG_NITROGEN_METABOLISM } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:48] ** Matching gene betweem `pertData` and  { KEGG_SULFUR_METABOLISM } **
+ 	 - { 0 } genes matched.
+ 	 - Matched genes: {  }
+INFO  [2021-07-04 01:54:48] ** Matching gene betweem `pertData` and  { KEGG_METABOLISM_OF_XENOBIOTICS_BY_CYTOCHROME_P450 } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ADH5, GSTM2, GSTZ1 }
+INFO  [2021-07-04 01:54:49] ** Matching gene betweem `pertData` and  { KEGG_DRUG_METABOLISM_CYTOCHROME_P450 } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ADH5, GSTM2, GSTZ1 }
+INFO  [2021-07-04 01:54:49] ** Matching gene betweem `pertData` and  { KEGG_DRUG_METABOLISM_OTHER_ENZYMES } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { HPRT1 }
+INFO  [2021-07-04 01:54:49] ** Matching gene betweem `pertData` and  { KEGG_BIOSYNTHESIS_OF_UNSATURATED_FATTY_ACIDS } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { ACAA1, ELOVL6, PECR }
+INFO  [2021-07-04 01:54:50] ** Matching gene betweem `pertData` and  { KEGG_ABC_TRANSPORTERS } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { ABCB6, ABCC5 }
+INFO  [2021-07-04 01:54:51] ** Matching gene betweem `pertData` and  { KEGG_RIBOSOME } **
+ 	 - { 2 } genes matched.
+ 	 - Matched genes: { RPS5, RPS6 }
+INFO  [2021-07-04 01:54:52] ** Matching gene betweem `pertData` and  { KEGG_RNA_DEGRADATION } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { HSPD1, CNOT4, EXOSC4, LSM5, LSM6, SKIV2L, WDR61 }
+INFO  [2021-07-04 01:54:53] ** Matching gene betweem `pertData` and  { KEGG_RNA_POLYMERASE } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { POLR1C, POLR2I, POLR2K }
+INFO  [2021-07-04 01:54:53] ** Matching gene betweem `pertData` and  { KEGG_DNA_REPLICATION } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { LIG1, MCM3, PCNA, POLD4, POLE2, RFC2, RFC5, RPA1, RPA2, RPA3 }
+INFO  [2021-07-04 01:54:54] ** Matching gene betweem `pertData` and  { KEGG_SPLICEOSOME } **
+ 	 - { 11 } genes matched.
+ 	 - Matched genes: { HSPA1A, HSPA8, CHERP, DDX42, LSM5, LSM6, PPIE, PRPF4, PUF60, SMNDC1, TCERG1 }
+INFO  [2021-07-04 01:54:55] ** Matching gene betweem `pertData` and  { KEGG_PROTEASOME } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { PSMB10, PSMB8, PSMD2, PSMD4, PSME1, PSME2, PSMF1 }
+INFO  [2021-07-04 01:54:56] ** Matching gene betweem `pertData` and  { KEGG_PROTEIN_EXPORT } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { OXA1L }
+INFO  [2021-07-04 01:54:56] ** Matching gene betweem `pertData` and  { KEGG_PPAR_SIGNALING_PATHWAY } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { ACAA1, ILK, MMP1, PCK2, PPARD, PPARG, SCP2 }
+INFO  [2021-07-04 01:54:56] ** Matching gene betweem `pertData` and  { KEGG_BASE_EXCISION_REPAIR } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { LIG1, PARP1, PARP2, PCNA, POLB, POLD4, POLE2 }
+INFO  [2021-07-04 01:54:57] ** Matching gene betweem `pertData` and  { KEGG_NUCLEOTIDE_EXCISION_REPAIR } **
+ 	 - { 13 } genes matched.
+ 	 - Matched genes: { CCNH, CDK7, DDB2, LIG1, MNAT1, PCNA, POLD4, POLE2, RFC2, RFC5, RPA1, RPA2, RPA3 }
+INFO  [2021-07-04 01:54:58] ** Matching gene betweem `pertData` and  { KEGG_MISMATCH_REPAIR } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { LIG1, MSH6, PCNA, POLD4, RFC2, RFC5, RPA1, RPA2, RPA3 }
+INFO  [2021-07-04 01:54:59] ** Matching gene betweem `pertData` and  { KEGG_HOMOLOGOUS_RECOMBINATION } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { POLD4, RAD51C, RPA1, RPA2, RPA3 }
+INFO  [2021-07-04 01:54:59] ** Matching gene betweem `pertData` and  { KEGG_MAPK_SIGNALING_PATHWAY } **
+ 	 - { 53 } genes matched.
+ 	 - Matched genes: { AKT1, FAS, FGFR2, FGFR4, FOS, GADD45A, GADD45B, HSPA1A, HSPA8, HSPB1, IKBKB, IL1B, JUN, CASP3, CDC25B, CDC42, CHP1, CRK, CRKL, DAXX, DUSP14, DUSP3, DUSP4, DUSP6, EGF, EGFR, MAP2K5, MAP3K4, MAP4K4, MAPK13, MAPK9, MAPKAPK2, MAPKAPK3, MAPKAPK5, MEF2C, MKNK1, MYC, NFATC4, NFKB2, NRAS, PAK1, PDGFA, PLA2G4A, PRKACA, PRKX, RAC2, RASA1, RELB, RPS6KA1, STMN1, TGFB3, TGFBR2, TP53 }
+INFO  [2021-07-04 01:55:00] ** Matching gene betweem `pertData` and  { KEGG_ERBB_SIGNALING_PATHWAY } **
+ 	 - { 28 } genes matched.
+ 	 - Matched genes: { ABL1, AKT1, JUN, BAD, CBLB, CDKN1A, CDKN1B, CRK, CRKL, EGF, EGFR, EIF4EBP1, ERBB2, ERBB3, MAPK9, MYC, NCK1, NCK2, NRAS, PAK1, PAK4, PAK6, PIK3CA, PIK3R3, PTK2, SHC1, SRC, STAT5B }
+INFO  [2021-07-04 01:55:01] ** Matching gene betweem `pertData` and  { KEGG_CALCIUM_SIGNALING_PATHWAY } **
+ 	 - { 21 } genes matched.
+ 	 - Matched genes: { ADRB2, GNA11, GNA15, GNAS, CALM3, CHP1, EGFR, ERBB2, ERBB3, MYLK, NOS3, PHKA1, PHKB, PHKG2, PLCB3, PRKACA, PRKX, PTK2B, SLC25A4, TBXA2R, VDAC1 }
+INFO  [2021-07-04 01:55:01] ** Matching gene betweem `pertData` and  { KEGG_CYTOKINE_CYTOKINE_RECEPTOR_INTERACTION } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { FAS, GHR, IFNAR1, IL13RA1, IL1B, IL4R, CCL2, CD40, CXCL2, CXCR4, EGF, EGFR, KIT, PDGFA, TGFB3, TGFBR2, TNFRSF21 }
+INFO  [2021-07-04 01:55:02] ** Matching gene betweem `pertData` and  { KEGG_CHEMOKINE_SIGNALING_PATHWAY } **
+ 	 - { 35 } genes matched.
+ 	 - Matched genes: { AKT1, FOXO3, GNAI1, GNAI2, GNB5, IKBKB, CCL2, CDC42, CRK, CRKL, CSK, CXCL2, CXCR4, LYN, NFKBIA, NFKBIB, NRAS, PAK1, PIK3CA, PIK3R3, PLCB3, PRKACA, PRKCD, PRKX, PTK2, PTK2B, PXN, RAC2, RHOA, SHC1, STAT1, STAT3, STAT5B, TIAM1, VAV3 }
+INFO  [2021-07-04 01:55:03] ** Matching gene betweem `pertData` and  { KEGG_PHOSPHATIDYLINOSITOL_SIGNALING_SYSTEM } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { INPP1, INPP4B, CALM3, PIK3C2B, PIK3C3, PIK3CA, PIK3R3, PIP4K2B, PLCB3 }
+INFO  [2021-07-04 01:55:04] ** Matching gene betweem `pertData` and  { KEGG_NEUROACTIVE_LIGAND_RECEPTOR_INTERACTION } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { ADRB2, GHR, LPAR2, NR3C1, TBXA2R }
+INFO  [2021-07-04 01:55:05] ** Matching gene betweem `pertData` and  { KEGG_CELL_CYCLE } **
+ 	 - { 42 } genes matched.
+ 	 - Matched genes: { ABL1, GADD45A, GADD45B, HDAC2, BUB1B, CCNA1, CCNA2, CCNB1, CCNB2, CCND1, CCND3, CCNE2, CCNH, CDC20, CDC25A, CDC25B, CDC45, CDK1, CDK2, CDK4, CDK6, CDK7, CDKN1A, CDKN1B, CDKN2A, CHEK1, CHEK2, E2F2, MCM3, MYC, ORC1, PCNA, PLK1, RB1, SFN, SKP1, SMAD3, SMC1A, SMC3, TFDP1, TGFB3, TP53 }
+INFO  [2021-07-04 01:55:05] ** Matching gene betweem `pertData` and  { KEGG_OOCYTE_MEIOSIS } **
+ 	 - { 19 } genes matched.
+ 	 - Matched genes: { IGF1R, AURKA, CALM3, CCNB1, CCNB2, CCNE2, CDC20, CDK1, CDK2, CHP1, PLK1, PPP2R5A, PPP2R5E, PRKACA, PRKX, RPS6KA1, SKP1, SMC1A, SMC3 }
+INFO  [2021-07-04 01:55:06] ** Matching gene betweem `pertData` and  { KEGG_P53_SIGNALING_PATHWAY } **
+ 	 - { 27 } genes matched.
+ 	 - Matched genes: { FAS, GADD45A, GADD45B, IGFBP3, BAX, BID, CASP3, CCNB1, CCNB2, CCND1, CCND3, CCNE2, CDK1, CDK2, CDK4, CDK6, CDKN1A, CDKN2A, CHEK1, CHEK2, CYCS, DDB2, PMAIP1, SERPINE1, SESN1, SFN, TP53 }
+INFO  [2021-07-04 01:55:07] ** Matching gene betweem `pertData` and  { KEGG_UBIQUITIN_MEDIATED_PROTEOLYSIS } **
+ 	 - { 15 } genes matched.
+ 	 - Matched genes: { KEAP1, BIRC2, BRCA1, CBLB, CDC20, DDB2, KLHL9, SKP1, STUB1, UBE2A, UBE2C, UBE2J1, UBE2L6, UBE3B, UBE3C }
+INFO  [2021-07-04 01:55:08] ** Matching gene betweem `pertData` and  { KEGG_REGULATION_OF_AUTOPHAGY } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ATG3, BECN1, PIK3C3, PIK3R4 }
+INFO  [2021-07-04 01:55:08] ** Matching gene betweem `pertData` and  { KEGG_ENDOCYTOSIS } **
+ 	 - { 27 } genes matched.
+ 	 - Matched genes: { ADRB2, FGFR2, FGFR4, HSPA1A, HSPA8, IGF1R, CBLB, CDC42, CHMP4A, CHMP6, CLTB, CLTC, CXCR4, DNM1, DNM1L, EGF, EGFR, EPN2, ERBB3, KIT, PIP4K2B, RAB11FIP2, RAB31, RAB4A, SRC, STAMBP, VPS28 }
+INFO  [2021-07-04 01:55:09] ** Matching gene betweem `pertData` and  { KEGG_PEROXISOME } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { ACAA1, CAT, ECH1, PECR, PEX11A, PXMP2, SCP2 }
+INFO  [2021-07-04 01:55:10] ** Matching gene betweem `pertData` and  { KEGG_MTOR_SIGNALING_PATHWAY } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { AKT1, HIF1A, CAB39, DDIT4, EIF4EBP1, PIK3CA, PIK3R3, RHEB, RPS6, RPS6KA1 }
+INFO  [2021-07-04 01:55:11] ** Matching gene betweem `pertData` and  { KEGG_APOPTOSIS } **
+ 	 - { 24 } genes matched.
+ 	 - Matched genes: { AKT1, FAS, IKBKB, IL1B, BAD, BAX, BCL2, BID, BIRC2, CAPN1, CASP10, CASP3, CASP7, CFLAR, CHP1, CYCS, DFFA, DFFB, NFKBIA, PIK3CA, PIK3R3, PRKACA, PRKX, TP53 }
+INFO  [2021-07-04 01:55:11] ** Matching gene betweem `pertData` and  { KEGG_VASCULAR_SMOOTH_MUSCLE_CONTRACTION } **
+ 	 - { 14 } genes matched.
+ 	 - Matched genes: { ARHGEF12, GNA11, GNAS, CALM3, MYL9, MYLK, PLA2G4A, PLCB3, PRKACA, PRKCD, PRKCH, PRKCQ, PRKX, RHOA }
+INFO  [2021-07-04 01:55:12] ** Matching gene betweem `pertData` and  { KEGG_WNT_SIGNALING_PATHWAY } **
+ 	 - { 27 } genes matched.
+ 	 - Matched genes: { FOSL1, FZD1, FZD7, JUN, AXIN1, CCND1, CCND3, CHP1, CSNK1A1, CSNK1E, CSNK2A2, MAPK9, MYC, NFATC3, NFATC4, PLCB3, PPARD, PPP2R5A, PPP2R5E, PRKACA, PRKX, RAC2, RHOA, RUVBL1, SKP1, SMAD3, TP53 }
+INFO  [2021-07-04 01:55:13] ** Matching gene betweem `pertData` and  { KEGG_DORSO_VENTRAL_AXIS_FORMATION } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { EGFR, ETS1, NOTCH1 }
+INFO  [2021-07-04 01:55:13] ** Matching gene betweem `pertData` and  { KEGG_NOTCH_SIGNALING_PATHWAY } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { HDAC2, HES1, NOTCH1, RFNG }
+INFO  [2021-07-04 01:55:14] ** Matching gene betweem `pertData` and  { KEGG_HEDGEHOG_SIGNALING_PATHWAY } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { GLI2, BMP4, CSNK1A1, CSNK1E, PRKACA, PRKX }
+INFO  [2021-07-04 01:55:15] ** Matching gene betweem `pertData` and  { KEGG_TGF_BETA_SIGNALING_PATHWAY } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { ID2, BMP4, MYC, RHOA, SKP1, SMAD3, TFDP1, TGFB3, TGFBR2 }
+INFO  [2021-07-04 01:55:16] ** Matching gene betweem `pertData` and  { KEGG_AXON_GUIDANCE } **
+ 	 - { 22 } genes matched.
+ 	 - Matched genes: { ABL1, ARHGEF12, FYN, GNAI1, GNAI2, CDC42, CHP1, CXCR4, EPHA3, EPHB2, NCK1, NCK2, NFATC3, NFATC4, NRAS, PAK1, PAK4, PAK6, PTK2, RAC2, RASA1, RHOA }
+INFO  [2021-07-04 01:55:17] ** Matching gene betweem `pertData` and  { KEGG_VEGF_SIGNALING_PATHWAY } **
+ 	 - { 20 } genes matched.
+ 	 - Matched genes: { AKT1, HSPB1, BAD, CDC42, CHP1, MAPK13, MAPKAPK2, MAPKAPK3, NFATC3, NFATC4, NOS3, NRAS, PIK3CA, PIK3R3, PLA2G4A, PTGS2, PTK2, PXN, RAC2, SRC }
+INFO  [2021-07-04 01:55:17] ** Matching gene betweem `pertData` and  { KEGG_FOCAL_ADHESION } **
+ 	 - { 37 } genes matched.
+ 	 - Matched genes: { AKT1, FYN, IGF1R, ILK, ITGB5, JUN, BAD, BCL2, BIRC2, CCND1, CCND3, CDC42, COL1A1, COL4A1, CRK, CRKL, EGF, EGFR, ERBB2, LAMA3, MAPK9, MYL9, MYLK, PAK1, PAK4, PAK6, PDGFA, PIK3CA, PIK3R3, PTK2, PXN, RAC2, RHOA, SHC1, SPP1, SRC, VAV3 }
+INFO  [2021-07-04 01:55:18] ** Matching gene betweem `pertData` and  { KEGG_ECM_RECEPTOR_INTERACTION } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { ITGB5, CD44, COL1A1, COL4A1, DAG1, LAMA3, SPP1 }
+INFO  [2021-07-04 01:55:19] ** Matching gene betweem `pertData` and  { KEGG_CELL_ADHESION_MOLECULES_CAMS } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { HLA-DMA, HLA-DRA, ICAM1, ICAM3, CD40, CD58, CDH3, MPZL1, PTPRC, PTPRF }
+INFO  [2021-07-04 01:55:20] ** Matching gene betweem `pertData` and  { KEGG_ADHERENS_JUNCTION } **
+ 	 - { 18 } genes matched.
+ 	 - Matched genes: { FYN, IGF1R, IQGAP1, CDC42, CSNK2A2, CTNND1, EGFR, ERBB2, PTPN1, PTPN6, PTPRF, RAC2, RHOA, SMAD3, SRC, TGFBR2, TJP1, WASF3 }
+INFO  [2021-07-04 01:55:21] ** Matching gene betweem `pertData` and  { KEGG_TIGHT_JUNCTION } **
+ 	 - { 18 } genes matched.
+ 	 - Matched genes: { AKT1, GNAI1, GNAI2, CASK, CDC42, CDK4, CSNK2A2, CTTN, EPB41L2, MYL9, NRAS, PRKCD, PRKCH, PRKCQ, RHOA, SPTAN1, SRC, TJP1 }
+INFO  [2021-07-04 01:55:21] ** Matching gene betweem `pertData` and  { KEGG_GAP_JUNCTION } **
+ 	 - { 16 } genes matched.
+ 	 - Matched genes: { GNA11, GNAI1, GNAI2, GNAS, CDK1, EGF, EGFR, MAP2K5, NRAS, PDGFA, PLCB3, PRKACA, PRKX, SRC, TJP1, TUBB6 }
+INFO  [2021-07-04 01:55:22] ** Matching gene betweem `pertData` and  { KEGG_COMPLEMENT_AND_COAGULATION_CASCADES } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { C5, PROS1, SERPINE1 }
+INFO  [2021-07-04 01:55:23] ** Matching gene betweem `pertData` and  { KEGG_ANTIGEN_PROCESSING_AND_PRESENTATION } **
+ 	 - { 11 } genes matched.
+ 	 - Matched genes: { HLA-DMA, HLA-DRA, HSPA1A, HSPA4, HSPA8, CREB1, CTSL, LGMN, PSME1, PSME2, RFX5 }
+INFO  [2021-07-04 01:55:23] ** Matching gene betweem `pertData` and  { KEGG_TOLL_LIKE_RECEPTOR_SIGNALING_PATHWAY } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { AKT1, FOS, IFNAR1, IKBKB, IKBKE, IL1B, JUN, CD40, MAPK13, MAPK9, NFKBIA, PIK3CA, PIK3R3, SPP1, STAT1, TICAM1, TLR4 }
+INFO  [2021-07-04 01:55:24] ** Matching gene betweem `pertData` and  { KEGG_NOD_LIKE_RECEPTOR_SIGNALING_PATHWAY } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { IKBKB, IL1B, BIRC2, CCL2, CXCL2, MAPK13, MAPK9, NFKBIA, NFKBIB }
+INFO  [2021-07-04 01:55:25] ** Matching gene betweem `pertData` and  { KEGG_RIG_I_LIKE_RECEPTOR_SIGNALING_PATHWAY } **
+ 	 - { 8 } genes matched.
+ 	 - Matched genes: { IKBKB, IKBKE, CASP10, MAPK13, MAPK9, NFKBIA, NFKBIB, PIN1 }
+INFO  [2021-07-04 01:55:26] ** Matching gene betweem `pertData` and  { KEGG_CYTOSOLIC_DNA_SENSING_PATHWAY } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { IKBKB, IKBKE, IL1B, NFKBIA, NFKBIB, POLR1C }
+INFO  [2021-07-04 01:55:26] ** Matching gene betweem `pertData` and  { KEGG_JAK_STAT_SIGNALING_PATHWAY } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { AKT1, GHR, IFNAR1, IL13RA1, IL4R, CBLB, CCND1, CCND3, MYC, PIK3CA, PIK3R3, PTPN6, SOCS2, SPRED2, STAT1, STAT3, STAT5B }
+INFO  [2021-07-04 01:55:27] ** Matching gene betweem `pertData` and  { KEGG_HEMATOPOIETIC_CELL_LINEAGE } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { HLA-DRA, IL1B, IL4R, CD44, KIT }
+INFO  [2021-07-04 01:55:28] ** Matching gene betweem `pertData` and  { KEGG_NATURAL_KILLER_CELL_MEDIATED_CYTOTOXICITY } **
+ 	 - { 19 } genes matched.
+ 	 - Matched genes: { FAS, FYN, ICAM1, IFNAR1, BID, CASP3, CHP1, NFATC3, NFATC4, NRAS, PAK1, PIK3CA, PIK3R3, PTK2B, PTPN6, RAC2, SHC1, SYK, VAV3 }
+INFO  [2021-07-04 01:55:29] ** Matching gene betweem `pertData` and  { KEGG_T_CELL_RECEPTOR_SIGNALING_PATHWAY } **
+ 	 - { 30 } genes matched.
+ 	 - Matched genes: { AKT1, FOS, FYN, IKBKB, JUN, CBLB, CDC42, CDK4, CHP1, MALT1, MAPK13, MAPK9, NCK1, NCK2, NFATC3, NFATC4, NFKBIA, NFKBIB, NFKBIE, NRAS, PAK1, PAK4, PAK6, PIK3CA, PIK3R3, PRKCQ, PTPN6, PTPRC, RHOA, VAV3 }
+INFO  [2021-07-04 01:55:29] ** Matching gene betweem `pertData` and  { KEGG_B_CELL_RECEPTOR_SIGNALING_PATHWAY } **
+ 	 - { 20 } genes matched.
+ 	 - Matched genes: { AKT1, FOS, IKBKB, JUN, BTK, CHP1, LYN, MALT1, NFATC3, NFATC4, NFKBIA, NFKBIB, NFKBIE, NRAS, PIK3CA, PIK3R3, PTPN6, RAC2, SYK, VAV3 }
+INFO  [2021-07-04 01:55:30] ** Matching gene betweem `pertData` and  { KEGG_FC_EPSILON_RI_SIGNALING_PATHWAY } **
+ 	 - { 14 } genes matched.
+ 	 - Matched genes: { AKT1, FYN, BTK, LYN, MAPK13, MAPK9, NRAS, PIK3CA, PIK3R3, PLA2G4A, PRKCD, RAC2, SYK, VAV3 }
+INFO  [2021-07-04 01:55:31] ** Matching gene betweem `pertData` and  { KEGG_FC_GAMMA_R_MEDIATED_PHAGOCYTOSIS } **
+ 	 - { 19 } genes matched.
+ 	 - Matched genes: { AKT1, CDC42, CRK, CRKL, DNM1, DNM1L, LYN, MYO10, PAK1, PIK3CA, PIK3R3, PIP4K2B, PLA2G4A, PRKCD, PTPRC, RAC2, SYK, VAV3, WASF3 }
+INFO  [2021-07-04 01:55:32] ** Matching gene betweem `pertData` and  { KEGG_LEUKOCYTE_TRANSENDOTHELIAL_MIGRATION } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { GNAI1, GNAI2, ICAM1, CDC42, CTNND1, CXCR4, MAPK13, MMP2, MYL9, PIK3CA, PIK3R3, PTK2, PTK2B, PXN, RAC2, RHOA, VAV3 }
+INFO  [2021-07-04 01:55:32] ** Matching gene betweem `pertData` and  { KEGG_INTESTINAL_IMMUNE_NETWORK_FOR_IGA_PRODUCTION } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { HLA-DMA, HLA-DRA, CD40, CXCR4 }
+INFO  [2021-07-04 01:55:33] ** Matching gene betweem `pertData` and  { KEGG_LONG_TERM_POTENTIATION } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { CALM3, CHP1, NRAS, PLCB3, PRKACA, PRKX, RPS6KA1 }
+INFO  [2021-07-04 01:55:34] ** Matching gene betweem `pertData` and  { KEGG_NEUROTROPHIN_SIGNALING_PATHWAY } **
+ 	 - { 30 } genes matched.
+ 	 - Matched genes: { ABL1, AKT1, FOXO3, FRS2, IKBKB, JUN, BAD, BAX, BCL2, CALM3, CDC42, CRK, CRKL, CSK, MAP2K5, MAPK13, MAPK9, MAPKAPK2, NFKBIA, NFKBIB, NFKBIE, NRAS, PIK3CA, PIK3R3, PRKCD, RHOA, RPS6KA1, SHC1, TP53, ZNF274 }
+INFO  [2021-07-04 01:55:35] ** Matching gene betweem `pertData` and  { KEGG_LONG_TERM_DEPRESSION } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { GNA11, GNAI1, GNAI2, GNAS, IGF1R, LYN, NRAS, PLA2G4A, PLCB3 }
+INFO  [2021-07-04 01:55:36] ** Matching gene betweem `pertData` and  { KEGG_OLFACTORY_TRANSDUCTION } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { CALM3, PRKACA, PRKX }
+INFO  [2021-07-04 01:55:37] ** Matching gene betweem `pertData` and  { KEGG_REGULATION_OF_ACTIN_CYTOSKELETON } **
+ 	 - { 28 } genes matched.
+ 	 - Matched genes: { ARHGEF12, FGFR2, FGFR4, IQGAP1, ITGAE, ITGB5, CDC42, CRK, CRKL, CSK, EGF, EGFR, MYL9, MYLK, NRAS, PAK1, PAK4, PAK6, PDGFA, PIK3CA, PIK3R3, PIP4K2B, PTK2, PXN, RAC2, RHOA, TIAM1, VAV3 }
+INFO  [2021-07-04 01:55:37] ** Matching gene betweem `pertData` and  { KEGG_INSULIN_SIGNALING_PATHWAY } **
+ 	 - { 28 } genes matched.
+ 	 - Matched genes: { AKT1, HK1, IKBKB, BAD, CALM3, CBLB, CRK, CRKL, EIF4EBP1, MAPK9, MKNK1, NRAS, PCK2, PHKA1, PHKB, PHKG2, PIK3CA, PIK3R3, PRKACA, PRKAG2, PRKX, PTPN1, PTPRF, PYGL, RHEB, RPS6, SHC1, SOCS2 }
+INFO  [2021-07-04 01:55:38] ** Matching gene betweem `pertData` and  { KEGG_GNRH_SIGNALING_PATHWAY } **
+ 	 - { 18 } genes matched.
+ 	 - Matched genes: { GNA11, GNAS, JUN, CALM3, CDC42, EGFR, MAP3K4, MAPK13, MAPK9, MMP2, NRAS, PLA2G4A, PLCB3, PRKACA, PRKCD, PRKX, PTK2B, SRC }
+INFO  [2021-07-04 01:55:39] ** Matching gene betweem `pertData` and  { KEGG_PROGESTERONE_MEDIATED_OOCYTE_MATURATION } **
+ 	 - { 20 } genes matched.
+ 	 - Matched genes: { AKT1, GNAI1, GNAI2, IGF1R, CCNA1, CCNA2, CCNB1, CCNB2, CDC25A, CDC25B, CDK1, CDK2, MAPK13, MAPK9, PIK3CA, PIK3R3, PLK1, PRKACA, PRKX, RPS6KA1 }
+INFO  [2021-07-04 01:55:39] ** Matching gene betweem `pertData` and  { KEGG_MELANOGENESIS } **
+ 	 - { 13 } genes matched.
+ 	 - Matched genes: { FZD1, FZD7, GNAI1, GNAI2, GNAS, CALM3, CREB1, EDN1, KIT, NRAS, PLCB3, PRKACA, PRKX }
+INFO  [2021-07-04 01:55:40] ** Matching gene betweem `pertData` and  { KEGG_ADIPOCYTOKINE_SIGNALING_PATHWAY } **
+ 	 - { 10 } genes matched.
+ 	 - Matched genes: { AKT1, IKBKB, MAPK9, NFKBIA, NFKBIB, NFKBIE, PCK2, PRKAG2, PRKCQ, STAT3 }
+INFO  [2021-07-04 01:55:41] ** Matching gene betweem `pertData` and  { KEGG_TYPE_II_DIABETES_MELLITUS } **
+ 	 - { 7 } genes matched.
+ 	 - Matched genes: { HK1, IKBKB, MAPK9, PIK3CA, PIK3R3, PRKCD, SOCS2 }
+INFO  [2021-07-04 01:55:42] ** Matching gene betweem `pertData` and  { KEGG_TYPE_I_DIABETES_MELLITUS } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { FAS, HLA-DMA, HLA-DRA, HSPD1, IL1B }
+INFO  [2021-07-04 01:55:42] ** Matching gene betweem `pertData` and  { KEGG_MATURITY_ONSET_DIABETES_OF_THE_YOUNG } **
+ 	 - { 1 } genes matched.
+ 	 - Matched genes: { HES1 }
+INFO  [2021-07-04 01:55:42] ** Matching gene betweem `pertData` and  { KEGG_ALDOSTERONE_REGULATED_SODIUM_REABSORPTION } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { ATP1B1, PIK3CA, PIK3R3, SFN }
+INFO  [2021-07-04 01:55:43] ** Matching gene betweem `pertData` and  { KEGG_VASOPRESSIN_REGULATED_WATER_REABSORPTION } **
+ 	 - { 5 } genes matched.
+ 	 - Matched genes: { GNAS, CREB1, PRKACA, PRKX, STX4 }
+INFO  [2021-07-04 01:55:44] ** Matching gene betweem `pertData` and  { KEGG_ALZHEIMERS_DISEASE } **
+ 	 - { 22 } genes matched.
+ 	 - Matched genes: { ADAM10, APOE, APP, FAS, GAPDH, HSD17B10, IDE, IL1B, ATF6, BACE2, BAD, BID, CALM3, CAPN1, CASP3, CASP7, CDK5R1, CHP1, CYCS, PLCB3, SDHB, SNCA }
+INFO  [2021-07-04 01:55:45] ** Matching gene betweem `pertData` and  { KEGG_PARKINSONS_DISEASE } **
+ 	 - { 8 } genes matched.
+ 	 - Matched genes: { CASP3, CYCS, SDHB, SLC25A4, SNCA, UBE2J1, UBE2L6, VDAC1 }
+INFO  [2021-07-04 01:55:45] ** Matching gene betweem `pertData` and  { KEGG_AMYOTROPHIC_LATERAL_SCLEROSIS_ALS } **
+ 	 - { 11 } genes matched.
+ 	 - Matched genes: { BAD, BAX, BCL2, BID, CASP3, CAT, CHP1, CYCS, DAXX, MAPK13, TP53 }
+INFO  [2021-07-04 01:55:46] ** Matching gene betweem `pertData` and  { KEGG_HUNTINGTONS_DISEASE } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { HDAC2, BAX, CASP3, CLTB, CLTC, CREB1, CYCS, PLCB3, POLR2I, POLR2K, PPARG, SDHB, SLC25A4, TBP, TBPL1, TP53, VDAC1 }
+INFO  [2021-07-04 01:55:47] ** Matching gene betweem `pertData` and  { KEGG_PRION_DISEASES } **
+ 	 - { 9 } genes matched.
+ 	 - Matched genes: { FYN, HSPA1A, IL1B, BAX, C5, EGR1, NOTCH1, PRKACA, PRKX }
+INFO  [2021-07-04 01:55:47] ** Matching gene betweem `pertData` and  { KEGG_VIBRIO_CHOLERAE_INFECTION } **
+ 	 - { 8 } genes matched.
+ 	 - Matched genes: { GNAS, KDELR2, ATP6V0B, ATP6V1D, ERO1A, PRKACA, PRKX, TJP1 }
+INFO  [2021-07-04 01:55:48] ** Matching gene betweem `pertData` and  { KEGG_EPITHELIAL_CELL_SIGNALING_IN_HELICOBACTER_PYLORI_INFECTION } **
+ 	 - { 16 } genes matched.
+ 	 - Matched genes: { ADAM10, IKBKB, JUN, ATP6V0B, ATP6V1D, CASP3, CDC42, CSK, EGFR, LYN, MAPK13, MAPK9, NFKBIA, PAK1, SRC, TJP1 }
+INFO  [2021-07-04 01:55:49] ** Matching gene betweem `pertData` and  { KEGG_LEISHMANIA_INFECTION } **
+ 	 - { 13 } genes matched.
+ 	 - Matched genes: { FOS, HLA-DMA, HLA-DRA, IL1B, JUN, MAPK13, NFKBIA, NFKBIB, PTGS2, PTPN6, STAT1, TGFB3, TLR4 }
+INFO  [2021-07-04 01:55:50] ** Matching gene betweem `pertData` and  { KEGG_PATHWAYS_IN_CANCER } **
+ 	 - { 75 } genes matched.
+ 	 - Matched genes: { ABL1, AKT1, ARNT2, FAS, FGFR2, FOS, FZD1, FZD7, GLI2, HDAC2, HIF1A, IGF1R, IKBKB, JUN, AXIN1, BAD, BAX, BCL2, BID, BIRC2, BIRC5, BMP4, CASP3, CBLB, CCNA1, CCND1, CCNE2, CDC42, CDK2, CDK4, CDK6, CDKN1A, CDKN1B, CDKN2A, CEBPA, COL4A1, CRK, CRKL, CYCS, E2F2, EGF, EGFR, ERBB2, ETS1, KIT, LAMA3, MAPK9, MMP1, MMP2, MSH6, MYC, NFKB2, NFKBIA, NRAS, PAX8, PDGFA, PIK3CA, PIK3R3, PPARD, PPARG, PTGS2, PTK2, RAC2, RALA, RALB, RALGDS, RB1, RHOA, SMAD3, STAT1, STAT3, STAT5B, TGFB3, TGFBR2, TP53 }
+INFO  [2021-07-04 01:55:50] ** Matching gene betweem `pertData` and  { KEGG_COLORECTAL_CANCER } **
+ 	 - { 23 } genes matched.
+ 	 - Matched genes: { AKT1, FOS, JUN, AXIN1, BAD, BAX, BCL2, BIRC5, CASP3, CCND1, CYCS, MAPK9, MSH6, MYC, PIK3CA, PIK3R3, RAC2, RALGDS, RHOA, SMAD3, TGFB3, TGFBR2, TP53 }
+INFO  [2021-07-04 01:55:51] ** Matching gene betweem `pertData` and  { KEGG_RENAL_CELL_CARCINOMA } **
+ 	 - { 15 } genes matched.
+ 	 - Matched genes: { AKT1, ARNT2, HIF1A, JUN, CDC42, CRK, CRKL, ETS1, NRAS, PAK1, PAK4, PAK6, PIK3CA, PIK3R3, TGFB3 }
+INFO  [2021-07-04 01:55:52] ** Matching gene betweem `pertData` and  { KEGG_PANCREATIC_CANCER } **
+ 	 - { 26 } genes matched.
+ 	 - Matched genes: { AKT1, IKBKB, BAD, CCND1, CDC42, CDK4, CDK6, CDKN2A, E2F2, EGF, EGFR, ERBB2, MAPK9, PIK3CA, PIK3R3, RAC2, RALA, RALB, RALGDS, RB1, SMAD3, STAT1, STAT3, TGFB3, TGFBR2, TP53 }
+INFO  [2021-07-04 01:55:52] ** Matching gene betweem `pertData` and  { KEGG_ENDOMETRIAL_CANCER } **
+ 	 - { 14 } genes matched.
+ 	 - Matched genes: { AKT1, FOXO3, ILK, AXIN1, BAD, CCND1, EGF, EGFR, ERBB2, MYC, NRAS, PIK3CA, PIK3R3, TP53 }
+INFO  [2021-07-04 01:55:53] ** Matching gene betweem `pertData` and  { KEGG_GLIOMA } **
+ 	 - { 18 } genes matched.
+ 	 - Matched genes: { AKT1, IGF1R, CALM3, CCND1, CDK4, CDK6, CDKN1A, CDKN2A, E2F2, EGF, EGFR, NRAS, PDGFA, PIK3CA, PIK3R3, RB1, SHC1, TP53 }
+INFO  [2021-07-04 01:55:54] ** Matching gene betweem `pertData` and  { KEGG_PROSTATE_CANCER } **
+ 	 - { 23 } genes matched.
+ 	 - Matched genes: { AKT1, FGFR2, IGF1R, IKBKB, BAD, BCL2, CCND1, CCNE2, CDK2, CDKN1A, CDKN1B, CREB1, E2F2, EGF, EGFR, ERBB2, NFKBIA, NRAS, PDGFA, PIK3CA, PIK3R3, RB1, TP53 }
+INFO  [2021-07-04 01:55:55] ** Matching gene betweem `pertData` and  { KEGG_THYROID_CANCER } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { CCND1, MYC, NRAS, PAX8, PPARG, TP53 }
+INFO  [2021-07-04 01:55:55] ** Matching gene betweem `pertData` and  { KEGG_BASAL_CELL_CARCINOMA } **
+ 	 - { 6 } genes matched.
+ 	 - Matched genes: { FZD1, FZD7, GLI2, AXIN1, BMP4, TP53 }
+INFO  [2021-07-04 01:55:56] ** Matching gene betweem `pertData` and  { KEGG_MELANOMA } **
+ 	 - { 17 } genes matched.
+ 	 - Matched genes: { AKT1, IGF1R, BAD, CCND1, CDK4, CDK6, CDKN1A, CDKN2A, E2F2, EGF, EGFR, NRAS, PDGFA, PIK3CA, PIK3R3, RB1, TP53 }
+INFO  [2021-07-04 01:55:57] ** Matching gene betweem `pertData` and  { KEGG_BLADDER_CANCER } **
+ 	 - { 14 } genes matched.
+ 	 - Matched genes: { CCND1, CDK4, CDKN1A, CDKN2A, E2F2, EGF, EGFR, ERBB2, MMP1, MMP2, MYC, NRAS, RB1, TP53 }
+INFO  [2021-07-04 01:55:57] ** Matching gene betweem `pertData` and  { KEGG_CHRONIC_MYELOID_LEUKEMIA } **
+ 	 - { 27 } genes matched.
+ 	 - Matched genes: { ABL1, AKT1, HDAC2, IKBKB, BAD, CBLB, CCND1, CDK4, CDK6, CDKN1A, CDKN1B, CDKN2A, CRK, CRKL, E2F2, MYC, NFKBIA, NRAS, PIK3CA, PIK3R3, RB1, SHC1, SMAD3, STAT5B, TGFB3, TGFBR2, TP53 }
+INFO  [2021-07-04 01:55:58] ** Matching gene betweem `pertData` and  { KEGG_ACUTE_MYELOID_LEUKEMIA } **
+ 	 - { 15 } genes matched.
+ 	 - Matched genes: { AKT1, IKBKB, BAD, CCNA1, CCND1, CEBPA, EIF4EBP1, KIT, MYC, NRAS, PIK3CA, PIK3R3, PPARD, STAT3, STAT5B }
+INFO  [2021-07-04 01:55:59] ** Matching gene betweem `pertData` and  { KEGG_SMALL_CELL_LUNG_CANCER } **
+ 	 - { 22 } genes matched.
+ 	 - Matched genes: { AKT1, IKBKB, BCL2, BIRC2, CCND1, CCNE2, CDK2, CDK4, CDK6, CDKN1B, COL4A1, CYCS, E2F2, LAMA3, MYC, NFKBIA, PIK3CA, PIK3R3, PTGS2, PTK2, RB1, TP53 }
+INFO  [2021-07-04 01:56:00] ** Matching gene betweem `pertData` and  { KEGG_NON_SMALL_CELL_LUNG_CANCER } **
+ 	 - { 16 } genes matched.
+ 	 - Matched genes: { AKT1, FOXO3, BAD, CCND1, CDK4, CDK6, CDKN2A, E2F2, EGF, EGFR, ERBB2, NRAS, PIK3CA, PIK3R3, RB1, TP53 }
+INFO  [2021-07-04 01:56:00] ** Matching gene betweem `pertData` and  { KEGG_ASTHMA } **
+ 	 - { 3 } genes matched.
+ 	 - Matched genes: { HLA-DMA, HLA-DRA, CD40 }
+INFO  [2021-07-04 01:56:01] ** Matching gene betweem `pertData` and  { KEGG_AUTOIMMUNE_THYROID_DISEASE } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { FAS, HLA-DMA, HLA-DRA, CD40 }
+INFO  [2021-07-04 01:56:02] ** Matching gene betweem `pertData` and  { KEGG_ALLOGRAFT_REJECTION } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { FAS, HLA-DMA, HLA-DRA, CD40 }
+INFO  [2021-07-04 01:56:03] ** Matching gene betweem `pertData` and  { KEGG_GRAFT_VERSUS_HOST_DISEASE } **
+ 	 - { 4 } genes matched.
+ 	 - Matched genes: { FAS, HLA-DMA, HLA-DRA, IL1B }
+INFO  [2021-07-04 01:56:03] ** Matching gene betweem `pertData` and  { KEGG_VIRAL_MYOCARDITIS } **
+ 	 - { 14 } genes matched.
+ 	 - Matched genes: { ABL1, FYN, HLA-DMA, HLA-DRA, ICAM1, BID, CASP3, CCND1, CD40, CYCS, DAG1, EIF4G1, RAC2, SGCB }

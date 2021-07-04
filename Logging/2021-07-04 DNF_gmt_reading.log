@@ -1,0 +1,10 @@
+DEBUG [2021-07-04 01:42:59] *** [ read_gmt ] initialised. loading  Data/GMT/c2.cp.kegg.v7.4.symbols.gmt ***
+DEBUG [2021-07-04 01:42:59] [ read_gmt ] checking:  length(gmt$genesets) != length(gmt$geneset.names)
+DEBUG [2021-07-04 01:42:59] ...passed
+INFO  [2021-07-04 01:42:59] *** [ read_gmt ] { c2.cp.kegg.v7.4.symbols.gmt } loaded successfully. ***
+ 	- number of pathways: { 186 }
+DEBUG [2021-07-04 01:54:13] *** [ read_gmt ] initialised. loading  Data/GMT/c2.cp.kegg.v7.4.symbols.gmt ***
+DEBUG [2021-07-04 01:54:13] [ read_gmt ] checking:  length(gmt$genesets) != length(gmt$geneset.names)
+DEBUG [2021-07-04 01:54:13] ...passed
+INFO  [2021-07-04 01:54:13] *** [ read_gmt ] { c2.cp.kegg.v7.4.symbols.gmt } loaded successfully. ***
+ 	- number of pathways: { 186 }

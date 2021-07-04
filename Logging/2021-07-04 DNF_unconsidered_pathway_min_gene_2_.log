@@ -1,0 +1,108 @@
+DEBUG [2021-07-04 01:30:30] idx[ 1 ]: KEGG_N_GLYCAN_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 2 ]: KEGG_OTHER_GLYCAN_DEGRADATION has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 3 ]: KEGG_O_GLYCAN_BIOSYNTHESIS has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 4 ]: KEGG_GLYCOSAMINOGLYCAN_DEGRADATION has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 5 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_KERATAN_SULFATE has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 6 ]: KEGG_GLYCEROLIPID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:30] idx[ 7 ]: KEGG_GLYCOSYLPHOSPHATIDYLINOSITOL_GPI_ANCHOR_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:32] idx[ 11 ]: KEGG_LINOLEIC_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:32] idx[ 12 ]: KEGG_ALPHA_LINOLENIC_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:33] idx[ 15 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GLOBO_SERIES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:33] idx[ 16 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:33] idx[ 17 ]: KEGG_RIBOFLAVIN_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:34] idx[ 19 ]: KEGG_PANTOTHENATE_AND_COA_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:34] idx[ 20 ]: KEGG_AMINOACYL_TRNA_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:35] idx[ 22 ]: KEGG_NON_HOMOLOGOUS_END_JOINING has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:37] idx[ 26 ]: KEGG_RENIN_ANGIOTENSIN_SYSTEM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:46] idx[ 39 ]: KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:50] idx[ 45 ]: KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:50] idx[ 46 ]: KEGG_STEROID_HORMONE_BIOSYNTHESIS has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:52] idx[ 50 ]: KEGG_ALANINE_ASPARTATE_AND_GLUTAMATE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:54] idx[ 54 ]: KEGG_VALINE_LEUCINE_AND_ISOLEUCINE_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:55] idx[ 57 ]: KEGG_HISTIDINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:56] idx[ 59 ]: KEGG_PHENYLALANINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:57] idx[ 61 ]: KEGG_BETA_ALANINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:57] idx[ 62 ]: KEGG_TAURINE_AND_HYPOTAURINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:57] idx[ 63 ]: KEGG_SELENOAMINO_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:30:59] idx[ 67 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_CHONDROITIN_SULFATE has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:01] idx[ 71 ]: KEGG_GLYOXYLATE_AND_DICARBOXYLATE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:03] idx[ 74 ]: KEGG_ONE_CARBON_POOL_BY_FOLATE has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:03] idx[ 76 ]: KEGG_RETINOL_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:05] idx[ 79 ]: KEGG_LIMONENE_AND_PINENE_DEGRADATION has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:05] idx[ 80 ]: KEGG_NITROGEN_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:05] idx[ 81 ]: KEGG_SULFUR_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:06] idx[ 84 ]: KEGG_DRUG_METABOLISM_OTHER_ENZYMES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:12] idx[ 93 ]: KEGG_PROTEIN_EXPORT has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:31:58] idx[ 156 ]: KEGG_MATURITY_ONSET_DIABETES_OF_THE_YOUNG has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 1 ]: KEGG_N_GLYCAN_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 2 ]: KEGG_OTHER_GLYCAN_DEGRADATION has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 3 ]: KEGG_O_GLYCAN_BIOSYNTHESIS has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 4 ]: KEGG_GLYCOSAMINOGLYCAN_DEGRADATION has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 5 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_KERATAN_SULFATE has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 6 ]: KEGG_GLYCEROLIPID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:42:59] idx[ 7 ]: KEGG_GLYCOSYLPHOSPHATIDYLINOSITOL_GPI_ANCHOR_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:02] idx[ 11 ]: KEGG_LINOLEIC_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:02] idx[ 12 ]: KEGG_ALPHA_LINOLENIC_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:03] idx[ 15 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GLOBO_SERIES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:03] idx[ 16 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:03] idx[ 17 ]: KEGG_RIBOFLAVIN_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:04] idx[ 19 ]: KEGG_PANTOTHENATE_AND_COA_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:04] idx[ 20 ]: KEGG_AMINOACYL_TRNA_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:05] idx[ 22 ]: KEGG_NON_HOMOLOGOUS_END_JOINING has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:07] idx[ 26 ]: KEGG_RENIN_ANGIOTENSIN_SYSTEM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:16] idx[ 39 ]: KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:20] idx[ 45 ]: KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:20] idx[ 46 ]: KEGG_STEROID_HORMONE_BIOSYNTHESIS has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:22] idx[ 50 ]: KEGG_ALANINE_ASPARTATE_AND_GLUTAMATE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:24] idx[ 54 ]: KEGG_VALINE_LEUCINE_AND_ISOLEUCINE_BIOSYNTHESIS has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:26] idx[ 57 ]: KEGG_HISTIDINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:26] idx[ 59 ]: KEGG_PHENYLALANINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:27] idx[ 61 ]: KEGG_BETA_ALANINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:27] idx[ 62 ]: KEGG_TAURINE_AND_HYPOTAURINE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:27] idx[ 63 ]: KEGG_SELENOAMINO_ACID_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:29] idx[ 67 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_CHONDROITIN_SULFATE has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:31] idx[ 71 ]: KEGG_GLYOXYLATE_AND_DICARBOXYLATE_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:33] idx[ 74 ]: KEGG_ONE_CARBON_POOL_BY_FOLATE has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:34] idx[ 76 ]: KEGG_RETINOL_METABOLISM has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:35] idx[ 79 ]: KEGG_LIMONENE_AND_PINENE_DEGRADATION has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:35] idx[ 80 ]: KEGG_NITROGEN_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:35] idx[ 81 ]: KEGG_SULFUR_METABOLISM has { 0 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:37] idx[ 84 ]: KEGG_DRUG_METABOLISM_OTHER_ENZYMES has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:43:43] idx[ 93 ]: KEGG_PROTEIN_EXPORT has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:44:30] idx[ 156 ]: KEGG_MATURITY_ONSET_DIABETES_OF_THE_YOUNG has { 1 } genes matched. less than min_num_common_genes = 2
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 1 ]: KEGG_N_GLYCAN_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 2 ]: KEGG_OTHER_GLYCAN_DEGRADATION matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 3 ]: KEGG_O_GLYCAN_BIOSYNTHESIS matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 4 ]: KEGG_GLYCOSAMINOGLYCAN_DEGRADATION matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 5 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_KERATAN_SULFATE matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 6 ]: KEGG_GLYCEROLIPID_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:13] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 7 ]: KEGG_GLYCOSYLPHOSPHATIDYLINOSITOL_GPI_ANCHOR_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:15] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 11 ]: KEGG_LINOLEIC_ACID_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:15] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 12 ]: KEGG_ALPHA_LINOLENIC_ACID_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:16] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 15 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GLOBO_SERIES matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:16] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 16 ]: KEGG_GLYCOSPHINGOLIPID_BIOSYNTHESIS_GANGLIO_SERIES matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:16] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 17 ]: KEGG_RIBOFLAVIN_METABOLISM matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:17] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 19 ]: KEGG_PANTOTHENATE_AND_COA_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:17] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 20 ]: KEGG_AMINOACYL_TRNA_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:18] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 22 ]: KEGG_NON_HOMOLOGOUS_END_JOINING matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:20] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 26 ]: KEGG_RENIN_ANGIOTENSIN_SYSTEM matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:29] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 39 ]: KEGG_PENTOSE_AND_GLUCURONATE_INTERCONVERSIONS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:32] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 45 ]: KEGG_PRIMARY_BILE_ACID_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:32] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 46 ]: KEGG_STEROID_HORMONE_BIOSYNTHESIS matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:35] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 50 ]: KEGG_ALANINE_ASPARTATE_AND_GLUTAMATE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:37] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 54 ]: KEGG_VALINE_LEUCINE_AND_ISOLEUCINE_BIOSYNTHESIS matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:38] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 57 ]: KEGG_HISTIDINE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:39] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 59 ]: KEGG_PHENYLALANINE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:40] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 61 ]: KEGG_BETA_ALANINE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:40] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 62 ]: KEGG_TAURINE_AND_HYPOTAURINE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:40] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 63 ]: KEGG_SELENOAMINO_ACID_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:42] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 67 ]: KEGG_GLYCOSAMINOGLYCAN_BIOSYNTHESIS_CHONDROITIN_SULFATE matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:44] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 71 ]: KEGG_GLYOXYLATE_AND_DICARBOXYLATE_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:46] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 74 ]: KEGG_ONE_CARBON_POOL_BY_FOLATE matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:46] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 76 ]: KEGG_RETINOL_METABOLISM matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:48] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 79 ]: KEGG_LIMONENE_AND_PINENE_DEGRADATION matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:48] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 80 ]: KEGG_NITROGEN_METABOLISM matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:48] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 81 ]: KEGG_SULFUR_METABOLISM matched genes { 0 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:49] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 84 ]: KEGG_DRUG_METABOLISM_OTHER_ENZYMES matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:54:56] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 93 ]: KEGG_PROTEIN_EXPORT matched genes { 1 } < min_num_common_genes { 2 }
+DEBUG [2021-07-04 01:55:42] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 156 ]: KEGG_MATURITY_ONSET_DIABETES_OF_THE_YOUNG matched genes { 1 } < min_num_common_genes { 2 }

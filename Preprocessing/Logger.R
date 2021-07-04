@@ -57,3 +57,39 @@ get_logger <- function(file_name = "", threshold = "DEBUG", subDir = "Logging") 
             list(my_console_appender, my_file_appender)
     ))
 }
+
+sanity_check <- function(condition, case,
+                         logger, caller = match.call()[[1]], warning = FALSE) {
+    log4r::debug(
+        logger = logger,
+        message = paste("[", caller, "] checking: ", case)
+    )
+
+    if (condition) {
+        log4r::debug(logger = logger, message = "...passed")
+        return(TRUE)
+    }
+
+    message <- paste("::: [", caller, "] failed. :::\n", "\t- REASON: ", case)
+    if (warning) {
+        log4r::warn(logger = logger, message = message)
+        return(FALSE)
+    } else {
+        log4r::error(logger = logger, message = message)
+        stop(message)
+    }
+}
+
+logger_init_msg <- function(curr_func, logger, msg = "") {
+    log4r::debug(
+        logger = logger,
+        message = paste("*** [", curr_func, "] initialised.", msg, "***")
+    )
+}
+
+logger_complete_msg <- function(curr_func, logger, msg = "") {
+    log4r::debug(
+        logger = logger,
+        message = paste("*** [", curr_func, "] completed.", msg, "***")
+    )
+}
