@@ -11,7 +11,7 @@ load("Data/PrePros.RData")
 bad_chars <- "[\xb5]|[\n]|[,]|[;]|[:]|[-]|[+]|[*]|[%]|[$]|[#]|[{]|[}]|[[]|[]]|[|]|[\\^]|[/]|[\\]|[.]|[_]|[ ]"
 
 LOG_LEVEL <- "INFO"
-MIN_NUM_COMMON_GENES <- 2
+MIN_NUM_COMMON_GENES <- 5
 
 DNFs <- list()
 
@@ -41,15 +41,15 @@ for (gmt_path in gmt_paths) {
         )
         if (is.null(dnf)) {
             num_skipped_pathway <- num_skipped_pathway + 1
-            log4r::info(
+            logger_skip_pathway(
                 logger = get_logger(
-                    log_file = "DNF_unconsidered_pathway_min_gene_2_.log",
+                    log_file = "DNF_unconsidered_pathway.log",
                     log_lv = LOG_LEVEL
                 ),
-                message = paste(
-                    "gmt: ", gmt_file, "[", idx, "]:", pathway_name,
-                    "< min_num_common_genes {", MIN_NUM_COMMON_GENES, "}"
-                )
+                gmt_file = gmt_file,
+                idx = idx,
+                pathway_name = pathway_name,
+                min_num_common_genes = MIN_NUM_COMMON_GENES
             )
             next()
         }
@@ -60,6 +60,7 @@ for (gmt_path in gmt_paths) {
 logger_DNFs_report(
     gmt_files = get_gmt_files(),
     DNFs = DNFs,
+    min_num_common_genes = MIN_NUM_COMMON_GENES,
     logger = get_logger("DNFs_generation_report.log"),
     num_skipped_pathway = num_skipped_pathway
 )
