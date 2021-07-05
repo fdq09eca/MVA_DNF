@@ -30,8 +30,8 @@ In the presentation, I will tell you about...
 2. I added the `Logging.R` feature.
 3. I automated the computation of DNF.
 4. I read and tried to understand the following codes:
-   1. `DeenaGendoo_Generate_MVA_DNF.R` :heavy_check_mark: 
-   2. `DeenaGendoo_PermutationTestAndFiltering.R` :ballot_box_with_check: 
+   1. `DeenaGendoo_Generate_MVA_DNF.R` :heavy_check_mark:
+   2. `DeenaGendoo_PermutationTestAndFiltering.R` :ballot_box_with_check:
 
 ---
 
@@ -77,8 +77,6 @@ Description:
 
 ## How does it look like?
 
-see the following `*.log` file snapshot.
-
 ```log
 INFO  [2021-07-04 19:19:57] *** [ read_gmt ] { c2.cp.kegg.v7.4.symbols.gmt } loaded successfully. ***
  	- number of pathways: { 186 }
@@ -86,8 +84,7 @@ INFO  [2021-07-04 19:21:58] *** [ read_gmt ] { c2.cp.reactome.v7.4.symbols.gmt }
  	- number of pathways: { 1604 }
 DEBUG [2021-07-04 19:19:59] [ drug_sanity_check ] checking:  ncol(sensData) != ncol(pertData)
 DEBUG [2021-07-04 19:19:59] ...passed
-INFO  [2021-07-04 19:20:04] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 22 ]: 
-KEGG_NON_HOMOLOGOUS_END_JOINING < min_num_common_genes { 2 }
+INFO  [2021-07-04 19:20:04] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 22 ]: KEGG_NON_HOMOLOGOUS_END_JOINING < min_num_common_genes { 2 }
 INFO  [2021-07-04 19:20:07] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 26 ]: KEGG_RENIN_ANGIOTENSIN_SYSTEM < min_num_common_genes { 2 }
 ```
 
@@ -100,7 +97,8 @@ DNF automation is done by `get_dnf()`, a custom function:
 ```r
 get_dnf <- function(pathway_name, pathway_genes,
                     pertData, sensData, strcData,
-                    min_num_common_genes = 2, logger = get_logger("DNF.log", log_lv = "DEBUG"))
+                    min_num_common_genes = 2, 
+                    logger = get_logger("DNF.log", log_lv = "DEBUG"))
 ```
 
 It returns the following `list`.
