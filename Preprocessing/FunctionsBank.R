@@ -119,15 +119,15 @@ drug_sanity_check <- function(pertData, sensData, strcData,
   logger_complete_msg(logger = logger, curr_func = curr_func)
 }
 
-get_gmt_files <- function() {
-  return(list.files(file.path(getwd(), "Data", "GMT"), pattern = "*.gmt$"))
+get_gmt_files <- function(gmts_dir) {
+  return(list.files(gmts_dir, pattern = "*.gmt$"))
 }
 
-get_gmt_paths <- function() {
-  files <- get_gmt_files()
+get_gmt_paths <- function(gmts_dir) {
+  files <- get_gmt_files(gmts_dir)
   paths <- list()
   for (i in 1:length(files)) {
-    paths[i] <- file.path(getwd(), "Data", "GMT", files[i])
+    paths[i] <- file.path(gmts_dir, files[i])
   }
   return(paths)
 }

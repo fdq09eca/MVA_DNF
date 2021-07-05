@@ -10,12 +10,12 @@ load("Data/PrePros.RData")
 
 bad_chars <- "[\xb5]|[\n]|[,]|[;]|[:]|[-]|[+]|[*]|[%]|[$]|[#]|[{]|[}]|[[]|[]]|[|]|[\\^]|[/]|[\\]|[.]|[_]|[ ]"
 
-LOG_LEVEL <- "INFO"
+GMTs_DIRECTORY <- file.path(getwd(), "Data", "GMT")
 MIN_NUM_COMMON_GENES <- 5
+LOG_LEVEL <- "INFO"
 
 DNFs <- list()
-
-gmt_paths <- get_gmt_paths()
+gmt_paths <- get_gmt_paths(gmts_dir = GMTs_DIRECTORY)
 num_skipped_pathway <- 0
 for (gmt_path in gmt_paths) {
     gmt_file <- basename(gmt_path)
