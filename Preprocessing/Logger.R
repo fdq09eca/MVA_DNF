@@ -94,18 +94,31 @@ logger_complete_msg <- function(curr_func, logger, msg = "") {
     )
 }
 
-logger_DNFs_report <- function(gmt_files, DNFs, logger, num_skipped_pathway) {
+logger_DNFs_report <- function(gmt_files, DNFs, logger, num_skipped_pathway, min_num_common_genes) {
     log4r::info(
         logger = logger,
         message = sprintf("== DNFs Report ==
         - number of gmt files processed: %s,
         - gmt files: [%s],
+        - minimum number of common genes: %s
         - number of dnfs generated: %s,
         - number of unconsidered pathways: %s",
         length(gmt_files),
         toString(gmt_files),
+        min_num_common_genes,
         length(DNFs),
         num_skipped_pathway
         )
     )
+}
+
+logger_skip_pathway <- function(logger, gmt_file, idx, pathway_name, min_num_common_genes) {
+    msg = sprintf(
+                    "gmt: %s[%s]: %s < min_num_common_genes %s",
+                    gmt_file,
+                    idx,
+                    pathway_name,
+                    min_num_common_genes
+                )
+    log4r::info(logger = logger,message = msg)
 }
