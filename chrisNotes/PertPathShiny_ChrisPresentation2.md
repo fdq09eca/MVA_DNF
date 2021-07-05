@@ -11,7 +11,7 @@ slideOptions:
 
 <style>
 .reveal {
-  font-size: 24px;
+  font-size: 28px;
 }
 </style>
 
@@ -44,7 +44,7 @@ Preprocessing
 └── Logger.R
 ```
 
-- `Dependencies.R` do all the package loading/installing.
+- `Dependencies.R` do all the package loading/installation.
 - `FunctionBank.R` contains all the operations function, including the `dnf` generation process: `get_dnf(...)`
 - `Logger.R` is created for better debugging.
 
@@ -52,7 +52,7 @@ Preprocessing
 
 ## Let's talk about the `Logging.R` feature.
 
-- I develop it from `log4r`.
+I develop it from `log4r`.
 
 ```
 log4r-package              package:log4r               R Documentation
@@ -129,21 +129,20 @@ dnf <- list(
 
 ## Implementation :pushpin:
 
-Essentially, It is 2 `for loop`:
+Essentially, it is 2 `for loop`:
 
-```
-1. create a empty list: `DNFs`
-2. get all file path of `*.gmt` under `Data/GMT` directory
-3. for each `*.gmt`:
+1. specify setting: `min_num_common_genes`, `gmts_dir`, `log_lv`
+2. create a empty list: `DNFs`
+3. get all file path of `*.gmt` under `gmts_dir`
+4. ==**`for` each `*.gmt`:**==
    1. load and read the `*.gmt` 
-   2. for each `pathway` in the `*.gmt`:
-      1. dnf <- `get_dnf(pathway ...)`
-         1. if `num_common_gene` < `min_num_common_genes`
-            1. skip the pathway and continue
+   2. ==**`for` each `pathway` in the `*.gmt`:**==
+      1. `dnf <- get_dnf(pathway ...)`
+         1. ==**skip if `num_common_gene` < `min_num_common_genes`**==
       2. add `dnf` to `DNFs`
-4. save `DNFs` to `DNFs.RData`
-5. generate `DNFs_report.log`.
-```
+5. save `DNFs` to `DNFs.RData`
+6. generate `DNFs_report.log`.
+
 
 ---
 
