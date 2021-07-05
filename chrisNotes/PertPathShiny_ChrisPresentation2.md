@@ -1,5 +1,5 @@
 ---
-title: PertPathShiny Project Presentation 2
+title: PertPathShiny_ChrisPresentation2
 date: 5-Jul-2021
 tags: GendooLab presentation
 presentationDetail:
@@ -26,16 +26,16 @@ In the presentation, I will tell you about...
 
 ## What did I do?
 
-1. I modularised the code.
+1. I modularised the code: `DeenaGendoo_Generate_MVA_DNF.R`
 2. I added the `Logging.R` feature.
 3. I automated the computation of DNF.
 4. I read and tried to understand the following codes:
-   1. `DeenaGendoo_Generate_MVA_DNF.R` :white_check_mark:
+   1. `DeenaGendoo_Generate_MVA_DNF.R` :heavy_check_mark: 
    2. `DeenaGendoo_PermutationTestAndFiltering.R` :ballot_box_with_check: 
 
 ---
 
-## What did I modularised?
+## What did I modularise?
 
 ```
 Preprocessing
@@ -48,12 +48,22 @@ Preprocessing
 - `FunctionBank.R` contains all the operations function, including the `dnf` generation process: `get_dnf(...)`
 - `Logger.R` is created for better debugging.
 
-
 ----
 
-## Let's talk about the `Logging.R` feature.
+## Let's talk about the `Logging.R` feature.
 
 - I develop it from `log4r`.
+
+```
+log4r-package              package:log4r               R Documentation
+
+A simple logging system for R, based on log4j.
+
+Description:
+
+     logr4 provides an object-oriented logging system that uses an API
+     roughly equivalent to log4j and its related variants.
+```
 
 ----
 
@@ -61,6 +71,7 @@ Preprocessing
 
 - Retain execution history.
 - Faster problem-shooting :arrow_right: Happier debugging.
+- Generate report.
 
 ----
 
@@ -84,7 +95,7 @@ INFO  [2021-07-04 19:20:07] gmt:  c2.cp.kegg.v7.4.symbols.gmt [ 26 ]: KEGG_RENIN
 
 ## DNF automation
 
-DNF automation is done by the following custom function.
+DNF automation is done by `get_dnf()`, a custom function:
 
 ```r
 get_dnf <- function(pathway_name, pathway_genes,
@@ -92,7 +103,7 @@ get_dnf <- function(pathway_name, pathway_genes,
                     min_num_common_genes = 2, logger = get_logger("DNF.log", log_lv = "DEBUG"))
 ```
 
-it returns 
+It returns the following `list`.
 
 ```r
 dnf <- list(
@@ -118,23 +129,25 @@ dnf <- list(
 
 ## Implementation :pushpin:
 
-Essentially, It is 2 `for` loop:
+Essentially, It is 2 `for loop`:
 
+```
 1. create a empty list: `DNFs`
-2. get all file path of `*.gmt` under `Data\GMT` directory
+2. get all file path of `*.gmt` under `Data/GMT` directory
 3. for each `*.gmt`:
    1. load and read the `*.gmt` 
    2. for each `pathway` in the `*.gmt`:
       1. dnf <- `get_dnf(pathway ...)`
          1. if `num_common_gene` < `min_num_common_genes`
-            1. skip pathway
+            1. skip the pathway and continue
       2. add `dnf` to `DNFs`
 4. save `DNFs` to `DNFs.RData`
 5. generate `DNFs_report.log`.
+```
 
 ---
 
-## `DNFs report`
+## `DNFs` report
 
 :::info
 **Setting**: minimum number of common genes = 2
@@ -154,6 +167,7 @@ INFO  [2021-07-05 17:11:08] == DNFs Report ==
 > Realistically though, I would only keep pathways that have a minimum of **5 genes** [name=Deena,2021]
 
 ----
+
 :::info
 **Setting**: minimum number of common genes = **5**
 :::
@@ -167,14 +181,17 @@ INFO  [2021-07-05 18:34:18] == DNFs Report ==
         - number of unconsidered pathways: 1105
 ```
 
+---
+
 ## what am I going to do?
 
 I will...
 
 - continue reading `DeenaGendoo_PermutationTestAndFiltering.R`
-- try to 
+- try to
   - Re-execute permutation testing & z-score calculation
   - Generate top drug hits against query drugs
+
 ---
 
 ## Thank you for your attention
