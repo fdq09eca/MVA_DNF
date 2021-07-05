@@ -202,8 +202,7 @@ dimension_sanity_check <- function(pert_aff_mat, sens_aff_mat, strc_aff_mat,
 get_dnf <- function(pathway_name, pathway_genes,
                     pertData, sensData, strcData,
                     min_num_common_genes = 2, logger = get_logger("DNF.log", log_lv = "DEBUG")) {
-  # pathway_name <- gmt$geneset.names[idx]
-  # pathway_genes <- as.character(sort(gmt$genesets[[idx]]))
+  
 
   pert_genes <- rownames(pertData)
   common_genes <- Reduce(intersect, list(pert_genes, pathway_genes))
